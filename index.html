@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+	 <link rel="stylesheet" type="text/css" href="fonts/themify-icons/themify-icons.css">
+	<link rel="shortcut icon" type="image/png" href="./images/logo_web.png">	
+	<link rel="stylesheet" href="css/main_style.css">
+	<title>NXLZero</title>
+ 	<!-- <script type="text/javascript" src="./js/script.js" >
+ 		
+ 	</script> -->
+
+</head>
+<body>
+	<div class="main">
+		<div class="nbackground">
+			<div class="nameweb">
+			</div>
+			<div class="danhngon">
+				<p>
+				<script src="./js/script.js"></script>	
+				</p>
+			</div>	
+			<div id="clock">
+					<div class="navclock">
+						<h1>TET</h1>
+						<p id="nav1"></p>
+					<p1></p1>						
+					</div>
+					<div class="navclock">
+						<h1>BIRTH</h1>
+						<p id="nav2"></p>
+					</div>
+					<div class="navclock">
+						<h1>HOME</h1>
+						<p id="nav3"></p>	
+					</div>
+					<div class="navclock">
+						<h1>TEST</h1>
+						<p id="nav4"></p>
+					</div>
+				<script src="./js/clock.js"></script>	
+			</div>
+			<div id="task">
+				<div id="headtask">
+					<h2>TASKS</h2>
+					<div class="add-to-do" id="test2">
+
+            				<input type="text" id="input" placeholder="Add a to-do">
+        			</div>
+					<div id="close1">
+						<i class="ti-close"></i>
+					</div>
+					<div class="clear">
+                		<i class="ti-trash"></i>
+            		</div>
+            		<div id="add">	
+            			<i class="ti-pencil"></i>
+            		</div>			
+				</div>
+				<div class="bodyTask">
+            		<ul id="list">
+            		</ul>
+				</div>
+				
+    			<script src="js/app.js"></script>
+
+			</div>
+			<div id="monney">
+						<div class="header">
+							<h1>HÓA ĐƠN</h1>
+							<div id="close"><i class="ti-close"></i></div>	
+						</div>
+						<div class="mainbody">
+							<div class="headmoney">
+								<div id="cardproduct">
+									<p>Nam</p>
+								</div>
+								<div id="cardmoney">
+									<p>20k</p>
+								</div>
+							</div>
+							<div id="foolmoney">
+								<div id="foolContent">
+									<p>TỔNG TIỀN:</p>
+								</div>
+								<div id="sumMoney">
+									<p>30k</p>
+								</div>
+							</div>
+				
+
+						</div>
+						<div class="foolter">
+							<i class="ti-trash"></i>
+							<div id="test">
+								<i class="ti-printer"></i>
+							</div>
+							
+							<i class="ti-pencil"></i>
+							<input type="text" id="vatPham">
+							<input type="text" id="money">
+						</div>
+			</div>	
+		</div>
+	</div>	
+		<script src="./js/script.js"></script>	
+		<script language="javascript">
+ 
+            document.getElementById("close").onclick = function () {
+                document.getElementById("monney").style.display = 'none';
+            };
+ 
+         
+            document.getElementById("test").onclick = function () {
+                document.getElementById("foolmoney").style.display = 'block';
+            };
+             document.getElementById("close1").onclick = function () {
+                document.getElementById("task").style.display = 'none';
+            };
+            document.getElementById("add").onclick = function () {
+                document.getElementById("test2").style.display = 'block';
+            };
+        </script>
+ 
+</body>
+
+</html>
